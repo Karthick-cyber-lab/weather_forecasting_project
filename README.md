@@ -1,11 +1,11 @@
-# 🌦️ Real-Time Weather Forecasting Website with Django & Machine Learning
+#  Real-Time Weather Forecasting Website with Django & Machine Learning
 
 This project is a **Real-Time Weather Forecasting Web Application** built using **Django, Python, and Machine Learning**.
 It predicts weather conditions and rainfall probability based on historical weather data and displays the results in a web dashboard.
 
 ---
 
-## 📌 Features
+##  Features
 
 * Real-time weather data display
 * Rain prediction using Machine Learning
@@ -16,7 +16,7 @@ It predicts weather conditions and rainfall probability based on historical weat
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Python
 * Django
@@ -28,7 +28,7 @@ It predicts weather conditions and rainfall probability based on historical weat
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ML_PROJECT
@@ -51,9 +51,9 @@ ML_PROJECT
 
 ---
 
-## ⚙️ Installation Guide
+##  Installation Guide
 
-### 1️⃣ Install Python and VS Code
+###  1  Install Python and VS Code
 
 Download and install:
 
@@ -64,7 +64,7 @@ Download and install:
 open this web and create api -- https://openweathermap.org › api ----replace it in views.py  (it will take 2 hrs)
 ---
 
-### 2️⃣ Open Terminal in VS Code
+### 2️ Open Terminal in VS Code
 
 Press:
 
@@ -74,7 +74,7 @@ Ctrl + Shift + ~
 
 ---
 
-### 3️⃣ Create Virtual Environment
+### 3️ Create Virtual Environment
 
 ```
 python -m venv venv
@@ -82,7 +82,7 @@ python -m venv venv
 
 ---
 
-### 4️⃣ Activate Virtual Environment
+### 4️ Activate Virtual Environment
 
 For **Windows**
 
@@ -98,7 +98,7 @@ source venv/bin/activate
 
 ---
 
-### 5️⃣ Install Required Libraries
+### 5️ Install Required Libraries
 
 ```
 pip install django pandas numpy scikit-learn requests
@@ -106,7 +106,7 @@ pip install django pandas numpy scikit-learn requests
 
 ---
 
-### 6️⃣ Run the Django Server
+### 6️ Run the Django Server
 
 Navigate to project folder and run:
 
@@ -119,7 +119,7 @@ python manage.py runserver
 
 ---
 
-### 7️⃣ Open in Browser
+### 7️ Open in Browser
 
 ```
 http://127.0.0.1:8000
@@ -127,7 +127,7 @@ http://127.0.0.1:8000
 
 ---
 
-## 📊 Machine Learning Model
+##  Machine Learning Model
 
 The system trains a **Random Forest model** using historical weather data to predict rainfall probability.
 
@@ -138,7 +138,7 @@ Evaluation metrics printed in terminal:
 
 ---
 
-## 📈 Visualization
+##  Visualization
 
 Weather temperature trends are displayed using **Chart.js line graphs**.
 
